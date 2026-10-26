@@ -1,0 +1,5 @@
+.form-grid {
+  display: grid;
+  gap: 14px;
+  max-width: 500px;
+}

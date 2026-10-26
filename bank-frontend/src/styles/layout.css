@@ -1,0 +1,52 @@
+
+.app-shell {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-wrapper {
+  display: flex;
+  flex: 1;
+  min-height: 0;
+}
+
+/* Fixed sidebar */
+.sidebar {
+  width: 260px;
+  background: #2f3742;
+  padding: 20px 16px;
+  color: white;
+  height: calc(100vh - 100px); /* adjust based on header + navbar height */
+  overflow-y: auto;
+  flex-shrink: 0;
+}
+
+/* Sidebar nav */
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.sidebar-link {
+  color: #4da3ff;
+  text-decoration: none;
+  font-size: 1.15rem;
+  padding: 10px 12px;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  display: block;
+}
+
+.sidebar-link:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: white;
+}
+
+/* Content scrolls instead */
+.content-area {
+  flex: 1;
+  padding: 24px;
+  overflow-x: auto;
+}

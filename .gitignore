@@ -1,0 +1,97 @@
+
+# =====================================
+# macOS
+# =====================================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# =====================================
+# Java / Spring Boot
+# =====================================
+**/target/
+**/build/
+**/out/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+hs_err_pid*
+
+# =====================================
+# Maven / Gradle
+# =====================================
+**/.gradle/
+**/.mvn/wrapper/maven-wrapper.jar
+
+# =====================================
+# Eclipse / Spring Tool Suite
+# =====================================
+**/.settings/
+**/.classpath
+**/.project
+**/.metadata/
+**/.recommenders/
+**/bin/
+
+# =====================================
+# IntelliJ IDEA
+# =====================================
+**/.idea/
+*.iml
+
+# =====================================
+# VS Code
+# =====================================
+**/.vscode/
+
+# =====================================
+# React / Vite / Node.js
+# =====================================
+**/node_modules/
+**/dist/
+**/.vite/
+**/coverage/
+**/.next/
+**/.cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =====================================
+# Environment variables / Secrets
+# =====================================
+.env
+.env.*
+!.env.example
+!.env.sample
+**/application-local.properties
+**/application-local.yml
+**/application-local.yaml
+**/application-secrets.properties
+**/application-secrets.yml
+**/application-secrets.yaml
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# =====================================
+# Databases
+# =====================================
+*.db
+*.sqlite
+*.sqlite3
+*.mv.db
+*.trace.db
+
+# =====================================
+# Temporary files
+# =====================================
+*.tmp
+*.bak
+*.swp
+*~
